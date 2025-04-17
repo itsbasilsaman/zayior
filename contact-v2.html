@@ -174,41 +174,40 @@
               <form id="wf-form-Contact-V2-Form" name="wf-form-Contact-V2-Form" data-name="Contact V2 Form" method="post"
                 data-wf-page-id="66994219f7a21679885fb4c9" data-wf-element-id="68b4dcbb-6405-4389-88b5-dbefe823c8cc">
                 <div class="w-layout-grid grid-form">
-                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8ce-885fb4c9"><label for="Name-3"
-                      class="text-light">Full name</label><input class="input large w-input" maxlength="256" name="Name"
-                      data-name="Name" placeholder="John Carter" type="text" id="Name-3" required="" /></div>
-                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8d2-885fb4c9"><label for="Email-3"
-                      class="text-light">Email address</label><input class="input large w-input" maxlength="256"
-                      name="Email" data-name="Email" placeholder="example@youremail.com" type="email" id="Email-3"
-                      required="" /></div>
-                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8d6-885fb4c9"><label for="Phone-3"
-                      class="text-light">Phone number</label><input class="input large w-input" maxlength="256"
-                      name="Phone" data-name="Phone" placeholder="(123) 456 - 7890" type="tel" id="Phone-3"
-                      required="" /></div>
-                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8da-885fb4c9"><label for="Company-3"
-                      class="text-light">Inquiry type</label><input class="input large w-input" maxlength="256"
-                      name="Company" data-name="Company" placeholder="ex. Reservations" type="text" id="Company-3"
-                      required="" /></div>
-                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8de-885fb4c9"><label for="Message-3"
-                      class="text-light">Message</label><textarea id="Message-3" name="Message" maxlength="5000"
-                      data-name="Message" placeholder="Please type your message here..." required=""
-                      class="text-area w-input"></textarea></div>
-                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8e2-885fb4c9"><input type="submit"
-                      data-wait="Please wait..." class="primary-button dark-mode w-button" value="Send Message" /></div>
+                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8ce-885fb4c9">
+                    <label for="Name-3" class="text-light">Full name</label>
+                    <input class="input large w-input" maxlength="256" name="Name" data-name="Name" placeholder="Your name" type="text" id="Name-3" required="" />
+                  </div>
+                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8d2-885fb4c9">
+                    <label for="Phone-3" class="text-light">Phone number</label>
+                    <input class="input large w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="(123) 456 - 7890" type="tel" id="Phone-3" required="" />
+                  </div>
+                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8d6-885fb4c9">
+                    <label for="Adults-3" class="text-light">Number of Adults</label>
+                    <input class="input large w-input" maxlength="256" name="Adults" data-name="Adults" placeholder="e.g. 2" type="number" id="Adults-3" required="" />
+                  </div>
+                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8da-885fb4c9">
+                    <label for="Children-3" class="text-light">Number of Children</label>
+                    <input class="input large w-input" maxlength="256" name="Children" data-name="Children" placeholder="e.g. 3" type="number" id="Children-3" required="" />
+                  </div>
+                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8de-885fb4c9">
+                    <label for="Message-3" class="text-light">Message</label>
+                    <textarea id="Message-3" name="Message" maxlength="5000" data-name="Message" placeholder="Please type your message here..." required="" class="text-area w-input"></textarea>
+                  </div>
+                  <div id="w-node-_68b4dcbb-6405-4389-88b5-dbefe823c8e2-885fb4c9">
+                    <input type="submit" data-wait="Please wait..." class="primary-button dark-mode w-button" value="Send Message" />
+                  </div>
                 </div>
               </form>
-              <div class="success-message-wrapper w-form-done"><img
-                  src="https://cdn.prod.website-files.com/66982ae9fb16de9abb010249/66c4e96a501db7919ba9ff9b_success-icon-light-glamping-webflow-ecommerce-template.svg"
-                  alt="" class="success-message-icon-top" />
+              <div class="success-message-wrapper w-form-done">
+                <img src="https://cdn.prod.website-files.com/66982ae9fb16de9abb010249/66c4e96a501db7919ba9ff9b_success-icon-light-glamping-webflow-ecommerce-template.svg" alt="" class="success-message-icon-top" />
                 <div class="mg-top-default">
                   <div class="text-titles">
                     <div class="display-5 mid text-light">Thank you! We'll get back to you soon</div>
                   </div>
                 </div>
                 <div class="mg-top-extra-small">
-                  <p class="paragraph-medium text-neutral-300">We have received your message and will get back to you as
-                    soon as possible. Our team is dedicated to providing the best support and we appreciate your
-                    patience.</p>
+                  <p class="paragraph-medium text-neutral-300">We have received your message and will get back to you as soon as possible. Our team is dedicated to providing the best support and we appreciate your patience.</p>
                 </div>
               </div>
               <div class="error-message-wrapper w-form-fail">
@@ -638,13 +637,13 @@
       
       // Get form values
       const name = document.getElementById('Name-3').value;
-      const email = document.getElementById('Email-3').value;
       const phone = document.getElementById('Phone-3').value;
-      const inquiry = document.getElementById('Company-3').value;
+      const adults = document.getElementById('Adults-3').value;
+      const children = document.getElementById('Children-3').value;
       const message = document.getElementById('Message-3').value;
       
       // Construct WhatsApp message
-      const whatsappMessage = `New Contact Form Submission:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nInquiry: ${inquiry}\nMessage: ${message}`;
+      const whatsappMessage = `New Contact Form Submission:\n\nName: ${name}\nPhone: ${phone}\nAdults: ${adults}\nChildren: ${children}\nMessage: ${message}`;
       
       // Encode message for URL
       const encodedMessage = encodeURIComponent(whatsappMessage);

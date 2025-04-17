@@ -2085,7 +2085,7 @@ textarea.w-input, textarea.w-select {
   --core--font-size--headings-mbl--h6: var(--core--font-size--displays-mbl--display-1);
   --core--font-size--headings-mbp--h6: var(--core--font-size--displays-mbp--display-1);
   --components--links--text-color--text-dark: var(--globals--color--texts--04);
-  --core--colors--primary--200: #ffc83b;
+  --core--colors--primary--200: #0FC563;
   --globals--margins--mg-extra-small: var(--core--sizes--size-2);
   --globals--color--texts--04: var(--core--colors--neutral--800);
   --neutral--800\<deleted\|variable-5d74d6f6\>: #19213d;
@@ -9483,8 +9483,16 @@ figcaption {
   overflow: hidden;
 }
 
+.darkened-image {
+  filter: brightness(80%);
+}
+
+.white-color {
+  color: white;
+}
+
 .main-container.home-v1 {
-  padding-top: 550px;
+  padding-top: 362px;
   padding-bottom: var(--components--sections--paddings--pd-default);
   overflow: hidden;
 }
