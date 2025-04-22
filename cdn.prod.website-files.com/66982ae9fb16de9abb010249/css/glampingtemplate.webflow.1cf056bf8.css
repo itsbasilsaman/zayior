@@ -360,19 +360,95 @@ pre.w-code-block code {
   height: 100%;
 }
 .bg-three-gallery {
-  background: url('../../../Assets/photo-three.jpg');
+  background: url('../../../Assets/photo-eight.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 100%;
 }
+
 .bg-four-gallery {
-  background: url('../../../Assets/Photo-one.jpg');
+  background: url('../../../Assets/photo-four.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 350px;
+  border-radius: 18px;
 }
+
+
+.bg-five-gallery {
+  background: url('../../../Assets/photo-seven.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  border-radius: 18px;
+}
+
+
+
+.bg-six-gallery {
+  background: url('../../../Assets/photo-thirteen.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  border-radius: 18px;
+}
+
+
+.bg-seven-gallery {
+  background: url('../../../Assets/photo-eight.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  border-radius: 18px;
+}
+
+.bg-eight-gallery {
+  background: url('../../../Assets/photo-nine.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  border-radius: 18px;
+}
+
+.bg-nine-gallery {
+  background: url('../../../Assets/image-two-zayior.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  border-radius: 18px;
+}
+
+.bg-ten-gallery {
+  background: url('../../../Assets/photo-six.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  border-radius: 18px;
+}
+
+.bg-eleven-gallery {
+  background: url('../../../Assets/zayior-one-latest.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  border-radius: 18px;
+}
+
+
+
+ 
+
+
+ 
 
 
 .w-webflow-badge > img {
@@ -11326,6 +11402,17 @@ figcaption {
 
   .mg-right-default {
     margin-right: var(--globals--margins--mg-small);
+  }
+
+  .photo-three-content-height {
+    height: 174px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+  }
+
+  .photo-three-content-radius {
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
   }
 
   .mg-right-medium {
